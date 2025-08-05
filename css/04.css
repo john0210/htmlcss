@@ -1,0 +1,15 @@
+.food-list {
+  /* list-style-type: none; */
+  list-style-type: decimal;
+  list-style-type: lower-alpha;
+  list-style-type: upper-alpha;
+  list-style-type: disc;
+
+  /* 목록의 들여쓰기 여부 지정 */
+  list-style-position: outside;
+  /* 한 단계 더 들여쓰기 (아래) */
+  list-style-position: inside;
+
+/* 불릿 이미지 넣고 */
+  list-style-image: url('../img/img1.jpg');
+}
