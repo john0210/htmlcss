@@ -1,0 +1,33 @@
+body {
+   font-size: 10px;
+}
+
+/* border: 1px solid;는 검색해서 안 부분 */
+/* letter-spacing: 1px; 자간 띄우기, 검색 */
+.container {
+  width: 430px; 
+  border: 1px solid;
+  letter-spacing: 1.6px;
+  
+}
+
+.h1_class {
+  font-size: 1.5rem;
+  
+}
+
+ul li {
+  list-style-type: none;
+  font-weight: 500; 
+  /* line-height: 30px; */
+  /* 줄 간격 line-height도 rem 사용 가능 */
+  line-height: 2.0rem;
+  
+}
+/* 타입선택자보다 클래스선택자 (동시 적용 방지) */
+.sub-title {
+  color: #ad3000; 
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
