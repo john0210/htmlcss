@@ -1,0 +1,81 @@
+.container {
+  width : 500px;
+  height: 560px;
+  border : 1px solid #000;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.header {
+  background-color: black;
+  height: 18%;
+  display: block;
+ 
+}
+
+.header .box-0 {
+  padding-left: 9px;
+  padding-top: 6px;
+}
+
+.header .box-0 .h1 {
+  color:rgb(255, 255, 255);
+  font-size: x-large;
+  margin-top: 0;
+}
+
+.header .box-0 .text {
+  color: orange;
+  font-size : small;
+  /* padding-top : 1px; */
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  display: block;
+ 
+}
+
+.main .blank  {
+  border: 1px solid rgb(255, 255, 255);
+  /* border-right: 1px solid rgb(255, 255, 255); */
+  height: 5px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: block;
+}
+
+.main .box-1 {
+  height: 30px;
+  background-color: black;
+  display: block;
+}
+
+.main .box-1 .span {
+  font-size : 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  padding-left: 3px;
+}
+
+.main .box-2 {
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 700;
+  display: block;
+}
+
+.main .box-2 .h2 {
+  color: red;
+}
+
+.main .box-2 .blue {
+  color: blue;
+}
+
+.main .box-2 .mini-text {
+  font-size: xx-small;
+  font-weight: 500;
+}
