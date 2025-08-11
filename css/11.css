@@ -1,0 +1,4 @@
+.required-sign::after {
+  content : '*';
+  color: red;
+}

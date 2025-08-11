@@ -42,7 +42,7 @@ header ~ p {
 
 /* link : 아직 방문하기 않은 링크 요소 선택 */
 a:link {
-  color : black
+  color : black;
 }
 
 /* visited : 방문한 링크 요소 선택 */

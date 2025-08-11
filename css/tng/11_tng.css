@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+
+fieldset {
+  width: 360px;
+  height: 300px;
+  border-color: #ff0000;
+  border-radius: 10%;
+}
+
+.required-sign::before {
+  content : '*';
+  color: red;
+}
+
+.background-test {
+  width: 350px;
+  height: 260px;
+  background-image: url('../../img/img1.jpg');
+  /* background-size: 200px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom : 200px;
+  /* opacity: 0.7; */
+}
+
+/* .background-test {
+  position: relative;
+}
+
+.background-test::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url('../../img/img1.jpg'); */
+  /* background-size: 200px; */
+  /* background-repeat: no-repeat;
+ 
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  left : 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+} */
+
+
+/* 밑에 코드 현업에서 많이 쓰임 */
+input:checked + label {
+  color: #ff0000;
+}
+
+input, textarea {
+  background-color: transparent;
+}
+
+.yogu {
+  position: relative;
+  bottom: 135px;
+}
+
+fieldset .account-name:focus {
+  outline: none;
+  border: 3px solid #c50101;
+
+}
+
+fieldset textarea:focus {
+  outline: none;
+  border: 3px solid #c50101;
+}
+
+button { 
+  position: relative;
+}
+
+fieldset button:hover::after {
+  content : '내용을 다시 한 번 확인해주세요.';
+  color: #ffffff;
+  background: #000000;
+  position: absolute;
+  padding-left: 10px;
+  white-space: nowrap;
+  font-size: 18px;
+  bottom: 0px;
+}
+
